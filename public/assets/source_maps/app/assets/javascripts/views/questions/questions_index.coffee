@@ -1,5 +1,6 @@
 class WdiBackboneDemo.Views.QuestionsIndex extends Backbone.View
 
+  #el: '<div></div>'
   template: JST['questions/index']
 
   render: ->
