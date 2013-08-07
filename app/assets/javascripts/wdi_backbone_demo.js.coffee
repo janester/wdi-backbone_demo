@@ -4,7 +4,7 @@ window.WdiBackboneDemo =
   Views: {}
   Routers: {}
   initialize: ->
-    new WdiBackboneDemo.Router.Questions
+    new WdiBackboneDemo.Routers.Questions
     Backbone.history.start()
 
 $(document).ready ->
