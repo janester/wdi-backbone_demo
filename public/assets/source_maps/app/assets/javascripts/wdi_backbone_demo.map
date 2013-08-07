@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "",
+  "sourceRoot": "",
+  "sources": [
+    "/assets/source_maps/app/assets/javascripts/wdi_backbone_demo.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;CAAA,CAAA,CACE,GADI,SAAN;CACE,CAAQ,EAAR,EAAA;CAAA,CACa,EAAb,OAAA;CADA,CAEO,EAAP,CAAA;CAFA,CAGS,EAAT,GAAA;CAHA,CAIY,CAAA,CAAZ,KAAY,CAAZ;CAAqB,IAAN,QAAA,SAAA;CAJf,IAIY;CALd,GAAA;;CAAA,CAOA,CAAkB,EAAlB,GAAA,CAAkB;CACA,SAAhB,CAAA,IAAe;CADjB,EAAkB;CAPlB"
+}
