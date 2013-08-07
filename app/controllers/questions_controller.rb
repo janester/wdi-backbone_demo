@@ -5,21 +5,22 @@ class QuestionsController < ApplicationController
   end
 
   def show
-    respond_with(Question.find(paras[:id]))
+    respond_with(Question.find(params[:id]))
   end
 
-  # def new
-  # end
+  def create
+    question = Question.create(params[:question])
+    respond_with(question)
+  end
 
-  # def create
-  # end
 
-  # def edit
-  # end
-
-  # def update
-  # end
+  def update
+    question = Question.find(params[:id])
+    question.update_attributes(params[:content])
+    respond_with(question)
+  end
 
   # def destroy
+  #   Question.delete(params[:id])
   # end
 end
