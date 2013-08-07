@@ -8,7 +8,6 @@ class WdiBackboneDemo.Routers.Questions extends Backbone.Router
     @collection.fetch(reset: true)
 
   index: ->
-    alert "You are in the index action"
     view = new WdiBackboneDemo.Views.QuestionsIndex(collection: @collection)
     $("#container").html(view.render().el)
 
