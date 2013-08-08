@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "",
+  "sourceRoot": "",
+  "sources": [
+    "/assets/source_maps/app/assets/javascripts/views/questions/question_show.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;CAAA,GAAA,EAAA;KAAA;oSAAA;;CAAA,CAAM,GAAqB,UAAN;CACnB;;;;;CAAA;;CAAA,EAAU,KAAV,QAAc;;CAAd,EACS,CADT,GACA;;CADA,EAGa,MAAA,EAAb;CACE,CAAA,EAAG,EAAH,EAAY;CAAU,CAAU,EAAC,CAAX,GAAA;CAAtB,OAAY;CADD,YAEX;CALF,IAGa;;CAHb;;CADgD,OAAQ;CAA1D"
+}
