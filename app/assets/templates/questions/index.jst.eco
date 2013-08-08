@@ -1,5 +1,10 @@
 <h1>Questions</h1>
 <ul>
+
+<form id="new_question">
+  <input type="text" name="question_content" id="question_content">
+  <input type="submit" value="Create Question">
+</form>
 <% for question in @questions.models: %>
   <li><%= question.attributes.content %></li>
 <% end %>
