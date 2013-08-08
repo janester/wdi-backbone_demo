@@ -20,7 +20,7 @@ class QuestionsController < ApplicationController
     respond_with(question)
   end
 
-  # def destroy
-  #   Question.delete(params[:id])
-  # end
+  def destroy
+    respond_with(Question.delete(params[:id]))
+  end
 end

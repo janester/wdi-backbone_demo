@@ -1,7 +1,7 @@
 <h1>Questions</h1>
 <ul>
 <% for question in @questions.models: %>
-  <li><%= question.get('content') %></li>
+  <li><%= question.attributes.content %></li>
 <% end %>
 </ul>
 
